@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674872341BBF171E00375F7B /* ViewController2Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674872331BBF171E00375F7B /* ViewController2Test.swift */; settings = {ASSET_TAGS = (); }; };
+		677F97B61BBF17F700EDE050 /* ViewController3Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677F97B51BBF17F700EDE050 /* ViewController3Test.swift */; settings = {ASSET_TAGS = (); }; };
+		677F97B81BBF237000EDE050 /* Unknown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 677F97B71BBF237000EDE050 /* Unknown.jpg */; settings = {ASSET_TAGS = (); }; };
 		67ABC6EF1BB9C32B00677285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ABC6EE1BB9C32B00677285 /* AppDelegate.swift */; };
 		67ABC6F11BB9C32B00677285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ABC6F01BB9C32B00677285 /* ViewController.swift */; };
 		67ABC6F41BB9C32B00677285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ABC6F21BB9C32B00677285 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		674872331BBF171E00375F7B /* ViewController2Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2Test.swift; sourceTree = "<group>"; };
+		677F97B51BBF17F700EDE050 /* ViewController3Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3Test.swift; sourceTree = "<group>"; };
+		677F97B71BBF237000EDE050 /* Unknown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown.jpg; path = ../../Unknown.jpg; sourceTree = "<group>"; };
 		67ABC6EB1BB9C32B00677285 /* Challenge Problem 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge Problem 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67ABC6EE1BB9C32B00677285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67ABC6F01BB9C32B00677285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +105,10 @@
 			children = (
 				67ABC6EE1BB9C32B00677285 /* AppDelegate.swift */,
 				67ABC6F01BB9C32B00677285 /* ViewController.swift */,
+				677F97B51BBF17F700EDE050 /* ViewController3Test.swift */,
+				677F97B71BBF237000EDE050 /* Unknown.jpg */,
 				67ABC6F21BB9C32B00677285 /* Main.storyboard */,
+				674872331BBF171E00375F7B /* ViewController2Test.swift */,
 				67ABC6F51BB9C32B00677285 /* Assets.xcassets */,
 				67ABC6F71BB9C32B00677285 /* LaunchScreen.storyboard */,
 				67ABC6FA1BB9C32B00677285 /* Info.plist */,
@@ -230,6 +239,7 @@
 			files = (
 				67ABC6F91BB9C32B00677285 /* LaunchScreen.storyboard in Resources */,
 				67ABC6F61BB9C32B00677285 /* Assets.xcassets in Resources */,
+				677F97B81BBF237000EDE050 /* Unknown.jpg in Resources */,
 				67ABC6F41BB9C32B00677285 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677F97B61BBF17F700EDE050 /* ViewController3Test.swift in Sources */,
 				67ABC6F11BB9C32B00677285 /* ViewController.swift in Sources */,
 				67ABC6EF1BB9C32B00677285 /* AppDelegate.swift in Sources */,
+				674872341BBF171E00375F7B /* ViewController2Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +493,7 @@
 				67ABC7151BB9C32B00677285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67ABC7161BB9C32B00677285 /* Build configuration list for PBXNativeTarget "Challenge Problem 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +502,7 @@
 				67ABC7181BB9C32B00677285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67ABC7191BB9C32B00677285 /* Build configuration list for PBXNativeTarget "Challenge Problem 1UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +511,7 @@
 				67ABC71B1BB9C32B00677285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
